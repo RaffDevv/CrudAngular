@@ -13,7 +13,7 @@ public class HelloController {
 
   @GetMapping
   public @ResponseBody String hello() {
-    return "Hello!";
+    return "Hello World!";
   }
 
 }
